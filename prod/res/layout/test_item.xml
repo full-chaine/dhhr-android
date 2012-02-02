@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:stretchColumns="1"
+        android:background="@drawable/news_background"
+        >
+
+    <TextView android:id="@+id/title"
+              android:text="Title"
+              android:autoLink="all"
+            style="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:padding="5dp"
+            />
+
+    <TableRow>
+        <TextView
+                android:text=">>"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="#FFD9D9D9"
+                />
+        <TextView android:id="@+id/author"
+                  android:text="Author"
+                  android:autoLink="all"
+                  android:textColor="#FFD9D9D9"
+                  android:paddingRight="5dp"
+                />
+        <TextView android:id="@+id/date"
+                  android:text="Date"
+                  android:paddingRight="5dp"
+                  android:textColor="#FFD9D9D9"
+                />
+    </TableRow>
+
+</TableLayout>

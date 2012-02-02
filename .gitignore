@@ -1,0 +1,22 @@
+# Mac related stuff
+.DS_Store
+
+# Linux related stuff
+.directory
+
+# Generated stuff
+local.properties
+prod/bin/
+prod/gen/
+test/bin/
+test/gen/
+.settings
+out/
+
+# IntelliJ per user stuff
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/scopes/
+.idea/workspace.xml
+.idea/codeStyleSettings.xml
+.idea/dictionaries/
